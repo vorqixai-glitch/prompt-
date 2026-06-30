@@ -3,19 +3,31 @@ import { SaaSConfig, ParseResult } from './types';
 export const SAMPLE_MEMOS = [
   {
     id: "hiking_trail",
-    title: "Mountain Trail Voice Memo",
+    title: "Mountain Trail Voice Memo (EN)",
     duration: "1m 15s",
     text: "Start at the pine log trailhead sign. Go straight North for about 200 meters. You will see a wooden footbridge on your left, cross that bridge over the creek. Then, turn East and hike uphill along the rocky path for 450 meters. Once you pass the tall boulder shaped like a triangle, turn South and descend for 100 meters until you reach the grassy clearing by the old campsite."
   },
   {
+    id: "hiking_trail_es",
+    title: "Senderismo en la Montaña (ES)",
+    duration: "1m 20s",
+    text: "Comience en el letrero de madera del sendero. Camine recto hacia el Norte durante unos 150 metros. Verá un pequeño puente de madera a su izquierda, cruce el puente sobre el río. Luego gire al Este y suba por el camino rocoso unos 300 metros. Al pasar la gran roca con forma de pirámide, gire hacia el Sur y baje 80 metros hasta llegar al campamento."
+  },
+  {
+    id: "warehouse_fr",
+    title: "Cueillette en Entrepôt (FR)",
+    duration: "0m 50s",
+    text: "Entrez par la porte principale de la zone B. Allez tout droit vers l'Est sur 40 mètres dans l'allée centrale. Arrêtez-vous devant l'étagère de stockage avec le panneau rouge. Tournez au Nord, marchez 20 mètres. Ensuite, tournez à l'Ouest et avancez de 30 mètres jusqu'au quai de déchargement."
+  },
+  {
     id: "delivery_warehouse",
-    title: "Warehouse Picking verbal directions",
+    title: "Warehouse Picking (EN)",
     duration: "0m 45s",
     text: "Enter through Bay 3 main entrance. Head East for 30 meters down Aisle A. Stop at the high-reach shelving unit with the yellow danger sign. Turn North, go 15 meters to the pallet storage. Turn West and walk 40 meters to the heavy-loading crane platform. Grab the parcel and walk 20 meters South directly to the dispatch desk."
   },
   {
     id: "city_guide",
-    title: "Downtown Historical Tour Speech",
+    title: "Downtown Historical Tour (EN)",
     duration: "2m 10s",
     text: "We begin our tour outside the historic stone clock tower on Broadway. Walk North for 300 meters past the Victorian fountain. When you reach the red brick library on the corner, turn West and walk 150 meters. Keep an eye out for the small copper plaque on the facade of the post office on your right. From there, head South for 400 meters down the cobbled pedestrian street until you reach the entrance of Central Gardens."
   }
