@@ -1,0 +1,6 @@
+{
+  "name": "VoiceDirections SaaS Builder",
+  "description": "An interactive workspace for generating prompts, architecture blueprints, and running live concept prototypes for Voice-to-Directions SaaS tools.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

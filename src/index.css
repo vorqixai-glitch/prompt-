@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bento-bg: #020617;
+  --color-bento-card: #0f172a;
+  --color-bento-border: #1e293b;
+}
+
+.bento-card {
+  background-color: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 12px;
+}
+
+.accent-gradient {
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+}
+
+.glow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  box-shadow: 0 0 10px #22c55e;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
